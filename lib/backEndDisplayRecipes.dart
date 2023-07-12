@@ -176,7 +176,7 @@ class FirestoreDB {
       ls.add(fetchAllTexts[i]);
       str.add(ls);
     }
-    if (str[0].isEmpty) {
+    if (str.isEmpty) {
       fetchAllBooleans.add('1');
       fetchAllIds.add('1');
       fetchAllUrls.add(
